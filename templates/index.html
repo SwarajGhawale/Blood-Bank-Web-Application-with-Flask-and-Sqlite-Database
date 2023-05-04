@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Blood Donation</title>
+<head>
+  {% if title %}
+  <title>{{ title }} - Blood Bank</title>
+  {% else %}
+  <title>Welcome to Blood Bank</title>
+  {% endif %}
+  <link rel="shortcut icon" href="{{url_for('static', filename='d.ico')}}"/>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="{{url_for('static', filename='numscroller-1.0.js')}}"></script>
+<style>div.someclass {
+background-size: cover;
+}
+}
+</style>
+
+</head>
+<style>
+body {background-color: powderblue;}
+h1 {
+    color: red;
+    font-family: verdana;
+    font-size: 160%;
+   }
+p  {
+    color: black;
+    font-family: vardana;
+    font-size: 20px;
+   }
+table {
+  border-collapse: collapse;
+  width: 60%;
+}
+
+th, td {
+  text-align: left;
+  padding: 10px;
+}
+
+tr:nth-child(odd){background-color: #f2f2f2}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+</style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #b71c1c;">
+
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <a class="navbar-brand" href="/">Blood Bank</a>
+  <ul class="navbar-nav mr-auto">
+    <li class="nav-item active">
+      <a class="nav-link" href="/index">Home <span class="sr-only">(current)</span></a>
+    </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/donor">Register Donor</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/donor">Search Donor</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/login">Log Out</a>
+  </li>
+
+</ul>
+</div>
+
+</nav>
+<center><h1 style="color:powderblue"align="center"><font size="8">.</center></h1></font>
+<center><h1 style="color:red"align="center"><font size="8">Donate Blood!!Donate Life!!</center></h1></font>
+
+<p>Have you at anytime witnessed a relative of yours or a close friend searching frantically for a blood donor, when blood banks say out of stock, the donors in mind are out of reach and the time keeps ticking? Have you witnessed loss of life for the only reason that a donor was not available at the most needed hour? Is it something that we as a society can do nothing to prevent? This thought laid our foundation.
+
+"Friends2support" is an organization that brings voluntary blood donors and those in need of blood on to a common platform.  Through this website, we seek donors who are willing to donate blood, as well as provide the timeliest support to those in frantic need of it.
+
+Started in the year 2005, on 14th Nov, in a small room with just 100 voluntary donors but with the zeal to serve our society, to inspire and spread the word, we dream to fulfill 100% blood need in India.
+
+Our mission is to fulfill every blood request in the country with a promising web portal and motivated individuals who are willing to donate blood.
+
+Our vision is to be “The hope of every Indian in search of a voluntary blood donor”
+
+Our motto - “Donate blood to save the most precious human life”</p>
+<p>Every three seconds, someone needs a blood transfusion! 20% of recipients are children – many are cancer patients, accident victims or patients undergoing surgery. A small needle prick and a little of your time could transform you into a superhero. Yes, by donating blood you’ll be saving up to three human lives each time you donate! Isn’t it shocking that about 60% of the population are eligible to donate blood, yet less than 4% do!
+
+June is National Blood Donor month. So, if you’re still in two minds about whether or not to donate blood, consider the unexpected health benefits as a donor. It’s time to roll up your sleeve and save a life – including yours. Here’s why:</p>
+
+</body>
+</html>
